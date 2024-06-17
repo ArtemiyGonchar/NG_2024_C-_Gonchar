@@ -1,0 +1,14 @@
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\bin\Debug\net8.0\Task_1_1.exe
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\bin\Debug\net8.0\Task_1_1.deps.json
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\bin\Debug\net8.0\Task_1_1.runtimeconfig.json
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\bin\Debug\net8.0\Task_1_1.dll
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\bin\Debug\net8.0\Task_1_1.pdb
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\obj\Debug\net8.0\Task_1_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\obj\Debug\net8.0\Task_1_1.AssemblyInfoInputs.cache
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\obj\Debug\net8.0\Task_1_1.AssemblyInfo.cs
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\obj\Debug\net8.0\Task_1_1.csproj.CoreCompileInputs.cache
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\obj\Debug\net8.0\Task_1_1.dll
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\obj\Debug\net8.0\refint\Task_1_1.dll
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\obj\Debug\net8.0\Task_1_1.pdb
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\obj\Debug\net8.0\Task_1_1.genruntimeconfig.cache
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\obj\Debug\net8.0\ref\Task_1_1.dll

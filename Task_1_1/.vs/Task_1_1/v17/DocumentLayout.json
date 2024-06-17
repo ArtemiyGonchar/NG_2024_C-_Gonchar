@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ng_berserk\\NG_2024_C-_Gonchar\\Task_1_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB0F4D0-37A8-458D-825D-7A74BF890536}|Task_1_1\\Task_1_1.csproj|c:\\ng_berserk\\ng_2024_c-_gonchar\\task_1_1\\task_1_1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB0F4D0-37A8-458D-825D-7A74BF890536}|Task_1_1\\Task_1_1.csproj|solutionrelative:task_1_1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB0F4D0-37A8-458D-825D-7A74BF890536}|Task_1_1\\Task_1_1.csproj|c:\\ng_berserk\\ng_2024_c-_gonchar\\task_1_1\\task_1_1\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB0F4D0-37A8-458D-825D-7A74BF890536}|Task_1_1\\Task_1_1.csproj|solutionrelative:task_1_1\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB0F4D0-37A8-458D-825D-7A74BF890536}|Task_1_1\\Task_1_1.csproj|c:\\ng_berserk\\ng_2024_c-_gonchar\\task_1_1\\task_1_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB0F4D0-37A8-458D-825D-7A74BF890536}|Task_1_1\\Task_1_1.csproj|solutionrelative:task_1_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB0F4D0-37A8-458D-825D-7A74BF890536}|Task_1_1\\Task_1_1.csproj|c:\\ng_berserk\\ng_2024_c-_gonchar\\task_1_1\\task_1_1\\balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB0F4D0-37A8-458D-825D-7A74BF890536}|Task_1_1\\Task_1_1.csproj|solutionrelative:task_1_1\\balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\ng_berserk\\NG_2024_C-_Gonchar\\Task_1_1\\Task_1_1\\Transaction.cs",
+              "RelativeDocumentMoniker": "Task_1_1\\Transaction.cs",
+              "ToolTip": "C:\\ng_berserk\\NG_2024_C-_Gonchar\\Task_1_1\\Task_1_1\\Transaction.cs",
+              "RelativeToolTip": "Task_1_1\\Transaction.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T19:21:26.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Balance.cs",
+              "DocumentMoniker": "C:\\ng_berserk\\NG_2024_C-_Gonchar\\Task_1_1\\Task_1_1\\Balance.cs",
+              "RelativeDocumentMoniker": "Task_1_1\\Balance.cs",
+              "ToolTip": "C:\\ng_berserk\\NG_2024_C-_Gonchar\\Task_1_1\\Task_1_1\\Balance.cs",
+              "RelativeToolTip": "Task_1_1\\Balance.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T18:15:21.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\ng_berserk\\NG_2024_C-_Gonchar\\Task_1_1\\Task_1_1\\Client.cs",
+              "RelativeDocumentMoniker": "Task_1_1\\Client.cs",
+              "ToolTip": "C:\\ng_berserk\\NG_2024_C-_Gonchar\\Task_1_1\\Task_1_1\\Client.cs",
+              "RelativeToolTip": "Task_1_1\\Client.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T17:54:45.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ng_berserk\\NG_2024_C-_Gonchar\\Task_1_1\\Task_1_1\\Program.cs",
+              "RelativeDocumentMoniker": "Task_1_1\\Program.cs",
+              "ToolTip": "C:\\ng_berserk\\NG_2024_C-_Gonchar\\Task_1_1\\Task_1_1\\Program.cs",
+              "RelativeToolTip": "Task_1_1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T17:40:17.205Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
