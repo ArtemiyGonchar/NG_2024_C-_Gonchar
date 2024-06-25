@@ -1,43 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task_1_1
+﻿namespace Task_1_1
 {
     internal class Client : Person
     {
-        public string Name
-        {
-            get { return name; }
-        }
+        public string Name { get; set; }
 
-        public int AccountNumber
-        {
-            get { return accountNumber; }
-        }
+        public int AccountNumber { get; set; }
 
-        public int ClientId
-        { 
-            get { return clientId; }
-        }
+        public int ClientId { get; set; }
 
         public Client(int id, int personId, string adress, string clientName, int accountNum)
-        : base (personId, adress, clientName)
+        : base(personId, adress, clientName)
         {
-            this.clientId = id;
-            this.name = clientName;
-            this.accountNumber = accountNum;
-            this.clientBalance = new Balance(accountNum, clientId);
+            this.ClientId = id;
+            this.Name = clientName;
+            this.AccountNumber = accountNum;
+            this.clientBalance = new Balance(accountNum, ClientId);
         }
 
         private Transaction transaction;
         private Balance clientBalance;
-        private int clientId;
-        private string name;
-        private int accountNumber;
 
         public void Deposit(int amount)
         {
@@ -52,9 +33,9 @@ namespace Task_1_1
         public string Withdraw(int amount)
         {
             int balance = clientBalance.GetBalance();
-            if (amount > balance) 
+            if (amount > balance)
             {
-                return $"Not enough money on your balance, {name}";
+                return $"Not enough money on your balance, {Name}";
             }
             clientBalance.UpdateBalance(-amount);
             return "Succes";

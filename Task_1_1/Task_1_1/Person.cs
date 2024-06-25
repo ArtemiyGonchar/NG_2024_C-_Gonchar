@@ -2,23 +2,13 @@
 {
     internal class Person
     {
-        public int PersonId
-        {
-            get { return personId; }
-        }
-
-        public string Adress
-        {
-            get { return adress; }
-        }
+        public int PersonId { get; set; }
+        public string Adress { get; set; }
 
         public Person(int personId, string adress, string clientName)
         {
-            this.personId = personId;
-            this.adress = adress;
+            this.PersonId = personId;
+            this.Adress = adress;
         }
-
-        private int personId;
-        private string adress;
     }
 }

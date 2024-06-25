@@ -1,9 +1,4 @@
-﻿using System.Data.SqlTypes;
-using System.Net.Http.Headers;
-using System.Runtime.InteropServices;
-using System.Transactions;
-
-namespace Task_1_1
+﻿namespace Task_1_1
 {
     internal class Program
     {
@@ -19,7 +14,6 @@ namespace Task_1_1
                 "6 - Withdraw.\n" +
                 "7 - exit.\n");
 
-            int adminIdCount = 1;
             int personIdCount = 1;
             int clientIdCount = 1;
             int accountIdCount = 1;
@@ -28,7 +22,7 @@ namespace Task_1_1
             string amount;
 
             Storage storage = new Storage();
-            Admin admin = new Admin(0, "Super-admin", 0, 0, "kukarekovo", "artem", 0); 
+            Admin admin = new Admin(0, "Super-admin", 0, 0, "kukarekovo", "artem", 0);
             Client client;
             Transaction transaction;
 
@@ -116,7 +110,7 @@ namespace Task_1_1
 
                     case "7":
                         return;
-                        break;                 
+                        break;
                 }
             }
             Console.ReadLine();//
