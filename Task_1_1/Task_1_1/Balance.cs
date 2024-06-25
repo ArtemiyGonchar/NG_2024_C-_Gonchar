@@ -10,18 +10,25 @@ namespace Task_1_1
 {
     internal class Balance
     {
-        public Balance(int balance_id, int client_id)
+        public Balance(int balanceId, int clientId)
         {
-            this.client_id = client_id;
-            this.balance_id = balance_id;
-            balance_amount = 0; //imagine that client doesnt deposit money when creating account :)
+            this.clientId = clientId;
+            this.balanceId = balanceId;
+            balanceAmount = 0; //imagine that client doesnt Deposit money when creating account :)
         }
 
-        private int balance_id;
-        private int client_id; //attached to balance_id
-        private int balance_amount;
+        private int balanceId;
+        private int clientId; //attached to balanceId
+        private int balanceAmount;
 
-        public int get_balance() { return balance_amount; }
-        public void update_balance(int amount) { balance_amount += amount; }
+        public int GetBalance()
+        {
+            return balanceAmount;
+        }
+
+        public void UpdateBalance(int amount)
+        {
+            balanceAmount += amount;
+        }
     }
 }

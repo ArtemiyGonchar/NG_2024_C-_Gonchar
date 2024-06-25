@@ -7,43 +7,56 @@ using System.Threading.Tasks;
 
 namespace Task_1_1
 {
-    internal class Client
+    internal class Client : Person
     {
-        public Client(int id, string client_name, int account_num) {
-            this.client_id = id;
-            this.name = client_name;
-            this.account_number = account_num;
-            this.client_balance = new Balance(account_num, client_id);
+        public string Name
+        {
+            get { return name; }
+        }
+
+        public int AccountNumber
+        {
+            get { return accountNumber; }
+        }
+
+        public int ClientId
+        { 
+            get { return clientId; }
+        }
+
+        public Client(int id, int personId, string adress, string clientName, int accountNum)
+        : base (personId, adress, clientName)
+        {
+            this.clientId = id;
+            this.name = clientName;
+            this.accountNumber = accountNum;
+            this.clientBalance = new Balance(accountNum, clientId);
         }
 
         private Transaction transaction;
-        private Balance client_balance;
-        private int client_id;
+        private Balance clientBalance;
+        private int clientId;
         private string name;
-        private int account_number;
+        private int accountNumber;
 
-        public string Name { get { return name; } }
-        public int AccountNumber { get { return account_number; } }
-        public int ClientId { get { return client_id; } }
-
-        public void deposit(int amount)
+        public void Deposit(int amount)
         {
-            client_balance.update_balance(amount);
+            clientBalance.UpdateBalance(amount);
         }
 
-        public int get_balance()
+        public int GetBalance()
         {
-            return client_balance.get_balance();
+            return clientBalance.GetBalance();
         }
 
-        public string withdraw(int amount)
+        public string Withdraw(int amount)
         {
-            int balance = client_balance.get_balance();
+            int balance = clientBalance.GetBalance();
             if (amount > balance) 
             {
                 return $"Not enough money on your balance, {name}";
             }
-            client_balance.update_balance(-amount);
+            clientBalance.UpdateBalance(-amount);
             return "Succes";
         }
     }

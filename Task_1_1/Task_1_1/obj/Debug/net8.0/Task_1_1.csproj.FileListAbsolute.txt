@@ -12,3 +12,4 @@ C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\obj\Debug\net8.0\refint\Task_
 C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\obj\Debug\net8.0\Task_1_1.pdb
 C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\obj\Debug\net8.0\Task_1_1.genruntimeconfig.cache
 C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\obj\Debug\net8.0\ref\Task_1_1.dll
+C:\ng_berserk\NG_2024_C-_Gonchar\Task_1_1\Task_1_1\obj\Debug\net8.0\Task_1_1.sourcelink.json

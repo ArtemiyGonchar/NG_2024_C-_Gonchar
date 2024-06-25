@@ -15,20 +15,21 @@ namespace Task_1_1
                 "2 - remove client from the system.\n" +
                 "3 - view transaction history.\n" +
                 "4 - get current balance.\n" +
-                "5 - deposit.\n" +
-                "6 - withdraw.\n" +
+                "5 - Deposit.\n" +
+                "6 - Withdraw.\n" +
                 "7 - exit.\n");
 
-            int admin_id_count = 1;
-            int person_id_count = 1;
-            int account_id_count = 1;
-            int transaction_id_count = 1;
+            int adminIdCount = 1;
+            int personIdCount = 1;
+            int clientIdCount = 1;
+            int accountIdCount = 1;
+            int transactionIdCount = 1;
 
             string amount;
 
             Storage storage = new Storage();
-            Admin admin = new Admin("Super-admin", 0, 0, "kukarekovo", "artem", 0); 
-            Person person;
+            Admin admin = new Admin(0, "Super-admin", 0, 0, "kukarekovo", "artem", 0); 
+            Client client;
             Transaction transaction;
 
             while (true)
@@ -53,11 +54,12 @@ namespace Task_1_1
 
                         } while (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(adress));
 
-                        person = new Person(person_id_count, adress, name, account_id_count);
-                        admin.add_client(storage, person);
+                        client = new Client(clientIdCount, personIdCount, adress, name, accountIdCount);
+                        admin.AddClient(storage, client);
 
-                        person_id_count++;
-                        account_id_count++;
+                        clientIdCount++;
+                        personIdCount++;
+                        accountIdCount++;
                         break;
 
                     case "2":
@@ -72,7 +74,7 @@ namespace Task_1_1
                         {
                             if (storage.Clients[i].PersonId == int.Parse(id))
                             {
-                                admin.remove_client(storage, storage.Clients[i]);
+                                admin.RemoveClient(storage, storage.Clients[i]);
                                 Console.WriteLine("Deleted");
                             }
                             else
@@ -83,33 +85,33 @@ namespace Task_1_1
                         break;
 
                     case "3":
-                        Console.WriteLine(admin.view_transactions(storage));
+                        Console.WriteLine(admin.ViewTransactions(storage));
                         break;
 
                     case "4":
-                        Console.WriteLine("Balance: " + admin.get_balance());
+                        Console.WriteLine("Balance: " + admin.GetBalance());
                         break;
 
                     case "5":
                         Console.Write("Enter amount: ");
                         amount = Console.ReadLine().ToString();
-                        admin.deposit(int.Parse(amount));
+                        admin.Deposit(int.Parse(amount));
 
                         transaction = new Transaction();
-                        transaction.record_transaction(transaction_id_count, int.Parse(amount));
-                        storage.add_to_transactionlist(transaction);
-                        transaction_id_count++;
+                        transaction.record_transaction(transactionIdCount, int.Parse(amount));
+                        storage.AddToTransactionList(transaction);
+                        transactionIdCount++;
                         break;
 
                     case "6":
                         Console.Write("Enter amount: ");
                         amount = Console.ReadLine().ToString();
-                        admin.withdraw(int.Parse(amount));
+                        admin.Withdraw(int.Parse(amount));
 
                         transaction = new Transaction();
-                        transaction.record_transaction(transaction_id_count, int.Parse(amount));
-                        storage.add_to_transactionlist(transaction);
-                        transaction_id_count++;
+                        transaction.record_transaction(transactionIdCount, int.Parse(amount));
+                        storage.AddToTransactionList(transaction);
+                        transactionIdCount++;
                         break;
 
                     case "7":

@@ -8,20 +8,20 @@ namespace Task_1_1
 {
     internal class Transaction
     {
-        private int transaction_id;
+        private int transactionId;
         private int amount;
         private string timestamp;
 
         public void record_transaction(int id, int amount)
         {
-            this.transaction_id = id;
+            this.transactionId = id;
             this.amount = amount;
             this.timestamp = DateTime.Now.ToString("yyyy/MM/dd");
         }
 
         public string get_transaction_details()
         {
-            return $"ID:{transaction_id}, AMOUNT:{amount}, TIME:{timestamp}";
+            return $"ID:{transactionId}, AMOUNT:{amount}, TIME:{timestamp}";
         }
     }
 }

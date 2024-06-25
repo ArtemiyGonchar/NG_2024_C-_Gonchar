@@ -1,38 +1,55 @@
-﻿using System;
-
-namespace Task_1_1
+﻿namespace Task_1_1
 {
-	internal class Storage
-	{
-		public Storage()
-		{
-			transactions_list = new List<Transaction> ();
-			clients_list = new List<Person>();
-		}
-
-		private List<Transaction> transactions_list;
-		private List<Person> clients_list;
-
-		public List<Transaction> Transactions { get { return transactions_list; } }
-		public List<Person> Clients { get { return clients_list; } }
-
-		public void add_to_clientlist(Person person)
-		{
-            clients_list.Add(person);
+    internal class Storage
+    {
+        public List<Transaction> Transactions
+        {
+            get
+            {
+                return transactionList;
+            }
         }
 
-		public void remove_client(Person person)
-		{
-			clients_list.Remove(person);
-		}
-
-		public void add_to_transactionlist(Transaction transaction)
-		{
-			transactions_list.Add(transaction);
+        public List<Client> Clients
+        {
+            get
+            {
+                return clientsList;
+            }
         }
 
-		public List<Person> get_clientlist() { return clients_list; }
+        public Storage()
+        {
+            transactionList = new List<Transaction>();
+            clientsList = new List<Client>();
+        }
 
-		public List<Transaction> get_transactionlist() { return transactions_list; }
-	}
+        private List<Transaction> transactionList;
+        private List<Client> clientsList;
+
+        public void AddToClientList(Client client)
+        {
+            clientsList.Add(client);
+        }
+
+        public void RemoveClient(Client client)
+        {
+            clientsList.Remove(client);
+        }
+
+        public void AddToTransactionList(Transaction transaction)
+        {
+            transactionList.Add(transaction);
+        }
+
+        public List<Client> GetClientList()
+        {
+            return clientsList;
+        }
+
+        public List<Transaction> GetTransactionList()
+        {
+            return transactionList;
+        }
+    }
 }
